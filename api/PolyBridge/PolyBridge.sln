@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37314.3 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyBridge.Api", "PolyBridge\PolyBridge.Api.csproj", "{8614243C-068C-4F85-AF9F-45452BC5441D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{7E2B9A14-6C38-4F51-8A70-3D5C1B9E4F62}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\website\index.html = ..\..\website\index.html
+		..\..\website\about.html = ..\..\website\about.html
+		..\..\website\contact.html = ..\..\website\contact.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{A4C81D37-2E95-4B06-9F18-6A0D3C7B5E24}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{B5D92E48-3FA6-4C17-A029-7B1E4D8C6F35}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\website\css\site.css = ..\..\website\css\site.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{C6EA3F59-40B7-4D28-B13A-8C2F5E9D7046}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\website\images\polybridge-logo.jpeg = ..\..\website\images\polybridge-logo.jpeg
+		..\..\website\images\website-background.jpg = ..\..\website\images\website-background.jpg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{D7FB406A-51C8-4E39-823B-9D306FAE8157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{E80C517B-62D9-4F4A-934C-AE4170BF9268}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{F91D628C-73EA-405B-A45D-BF5281C0A379}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "scripts", "scripts", "{0A2E739D-84FB-416C-B56E-C06392D1B48A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1B3F84AE-950C-427D-867F-D174A3E2C59B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{2C4095BF-A61D-438E-9780-E285B4F3D6AC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{3D51A6C0-B72E-449F-A891-F396C504E7BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{4E62B7D1-C83F-45A0-B9A2-04A7D615F8CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "js", "js", "{5F73C8E2-D940-46B1-8AB3-15B8E72609DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8614243C-068C-4F85-AF9F-45452BC5441D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8614243C-068C-4F85-AF9F-45452BC5441D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8614243C-068C-4F85-AF9F-45452BC5441D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8614243C-068C-4F85-AF9F-45452BC5441D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A4C81D37-2E95-4B06-9F18-6A0D3C7B5E24} = {7E2B9A14-6C38-4F51-8A70-3D5C1B9E4F62}
+		{B5D92E48-3FA6-4C17-A029-7B1E4D8C6F35} = {7E2B9A14-6C38-4F51-8A70-3D5C1B9E4F62}
+		{C6EA3F59-40B7-4D28-B13A-8C2F5E9D7046} = {7E2B9A14-6C38-4F51-8A70-3D5C1B9E4F62}
+		{D7FB406A-51C8-4E39-823B-9D306FAE8157} = {7E2B9A14-6C38-4F51-8A70-3D5C1B9E4F62}
+		{E80C517B-62D9-4F4A-934C-AE4170BF9268} = {7E2B9A14-6C38-4F51-8A70-3D5C1B9E4F62}
+		{0A2E739D-84FB-416C-B56E-C06392D1B48A} = {F91D628C-73EA-405B-A45D-BF5281C0A379}
+		{1B3F84AE-950C-427D-867F-D174A3E2C59B} = {F91D628C-73EA-405B-A45D-BF5281C0A379}
+		{2C4095BF-A61D-438E-9780-E285B4F3D6AC} = {1B3F84AE-950C-427D-867F-D174A3E2C59B}
+		{3D51A6C0-B72E-449F-A891-F396C504E7BD} = {1B3F84AE-950C-427D-867F-D174A3E2C59B}
+		{4E62B7D1-C83F-45A0-B9A2-04A7D615F8CE} = {1B3F84AE-950C-427D-867F-D174A3E2C59B}
+		{5F73C8E2-D940-46B1-8AB3-15B8E72609DF} = {1B3F84AE-950C-427D-867F-D174A3E2C59B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E4BCE344-42BF-4FB2-B0F1-F8561CA7DB72}
+	EndGlobalSection
+EndGlobal
