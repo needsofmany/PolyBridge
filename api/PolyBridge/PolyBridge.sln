@@ -5,6 +5,11 @@ VisualStudioVersion = 17.14.37314.3 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyBridge.Api", "PolyBridge\PolyBridge.Api.csproj", "{8614243C-068C-4F85-AF9F-45452BC5441D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B8E4C0A1-7F23-4C5D-8A16-9D2E6F0B3C47}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\TAG_TASKS.md = ..\..\TAG_TASKS.md
+	EndProjectSection
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{7E2B9A14-6C38-4F51-8A70-3D5C1B9E4F62}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\website\index.html = ..\..\website\index.html
